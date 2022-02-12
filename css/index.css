@@ -1,24 +1,6 @@
-.testimonials__p{
-    text-align: right;
-}
-.testimonials__cards-dave{
-    border: solid;
-}
-.red-point__h2{
-    color:red;
-}
-.testimonials__cards-dave-img{
-    width: 180px;
-}
-.testimonials__cards-amanda-img{
-    width: 180px;
-}
-.testimonials__cards-erica-img{
-    width: 180px;
-}
-.testimonials__cards-amanda{
-    border:solid;
-}
-.testimonials__cards-erica{
-    border:solid;
-}
+@import url(common.css);
+@import url(header.css);
+@import url(beautiful-places.css);
+@import url(about-us.css);
+@import url(testimonials.css);
+
