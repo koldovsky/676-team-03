@@ -14,3 +14,8 @@ img {
     display: block;
     width: 100%;
 }
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
