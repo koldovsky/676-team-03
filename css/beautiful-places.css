@@ -11,3 +11,20 @@
 .beautiful-places {
     color:rgb(112, 112, 112);
 }
+
+.beautiful-places__text-container {
+    display: flex;
+    flex-direction: row;
+    left: 60px;
+}
+
+.beautiful-places__text-container > .beautiful-places__title {
+    flex: auto;
+}
+ .beautiful-places__text-container > .beautiful-places__text-information {
+     flex: auto;
+ }
+
+ .beautiful-places__text-information {
+     margin-left: 100px;
+ }
