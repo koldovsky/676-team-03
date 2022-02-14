@@ -1,12 +1,38 @@
+#testimonials{
+    background-image: url(../img/testimonials/background.webp);
+    background-color:rgb(247, 247, 247);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .testimonials__p{
     text-align: right;
 }
-.testimonials__cards-dave-article-h2{
-    font-size: 22px;
+.testimonials__cards-dave-article-h3{
+    font-size: 23px;
+    color: rgb(63, 54, 49);
+    font-weight: 700;
+}
+.testimonials__cards-amanda-article-h3{
+    
+    font-size: 23px;
+    color: rgb(63, 54, 49);
+    font-weight: 700;
+}
+.testimonials__cards-erica-article-h3{
+    font-size: 23px;
+    color: rgb(63, 54, 49);
+    font-weight: 700;
 }
 .testimonials__cards-dave{
     border: solid;
     text-align: center;
+    border-inline-color: white;
+    background-color: white;
+    border-block-color: white;
+    margin-left: 10%;
 }
 .red-point__h2{
     color:red;
@@ -19,6 +45,7 @@
     border-image-repeat: stretch;
     border-image-slice: 100%;
     text-align: center;
+    text-size-adjust: 100%;
     width: 70px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -56,14 +83,21 @@
 }
 .testimonials__cards-amanda{
     border:solid;
+    border-inline-color: white;
+    background-color: white;
+    border-block-color: white;
 }
 .testimonials__cards-erica{
     border:solid;
+    border-inline-color: white;
+    background-color: white;
+    border-block-color: white;
+    margin-right: 10%;
+    
 }
 .testimonials{
     display:flex;
     justify-content: space-between;
-    margin-top: 150px;
 }
 .testimonials__caption{
    
@@ -90,4 +124,47 @@
     justify-content: space-between;
     margin-top: 150px;
     text-align: center;
+}
+.testimonials__cards-amanda-article-subtext{
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(153, 134, 123);
+}
+.testimonials__cards-amanda-article-p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(153, 134, 123);
+}
+.testimonials__cards-erica-article-p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(153, 134, 123);
+}
+.testimonials__cards-erica-article-subtext{
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(153, 134, 123);
+}
+.testimonials__cards-dave-article-subtext{
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(153, 134, 123);
+}
+.testimonials__cards-dave-article-p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(153, 134, 123);
+}
+.testimonials__cards-dave-icons{
+    display: flex;
+    align-items: center;
+}
+.testimonials__cards-amanda-icons{
+    display:flex;
+    align-items: center;
+}
+.testimonials__cards-erica-icons{
+    display:flex;
+    align-items: center;
+    
 }
