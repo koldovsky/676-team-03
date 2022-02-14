@@ -1,0 +1,48 @@
+.tours__carousel-item{
+    padding: 15px;
+    margin: 15px;
+    max-width: 300px;
+}
+.tours__carousel-item-img{
+    width: 250px;
+}
+.tours__carousel-item-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.tours__questions-block-container{
+   background-color: red;
+   padding: 75px 50px;
+}
+.tours__questions-block-button-link{
+    text-decoration: none;
+    color: #fff;
+}
+.tours__questions-block-button-link :hover{
+    color:#000;
+    background-color: #fff;
+}
+.tours__questions-block-button-border{
+    display: flex;
+    text-decoration: none;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: auto;
+    margin: 0;
+}
+.tours__questions-block-button-item{
+    padding: auto;
+    margin: auto;
+}
+
+.tours__questions-block-button-icon{
+    width: 30px;
+}
+.tours__questions-block-title h2{
+    color: white;
+}
+.tours__questions-block-text p{
+    color: white;
+}
