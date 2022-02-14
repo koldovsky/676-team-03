@@ -15,7 +15,6 @@
 .beautiful-places__text-container {
     display: flex;
     flex-direction: row;
-    left: 60px;
 }
 
 .beautiful-places__text-container > .beautiful-places__title {
@@ -26,5 +25,15 @@
  }
 
  .beautiful-places__text-information {
-     margin-left: 100px;
+     margin-left: 120px;
+     line-height: 1.7rem;
+ }
+
+ .beautiful-places__title {
+     margin-left: 60px;
+ }
+
+ .beautiful-places__subtext {
+     margin-top: 15px;
+     font-size: 1.2rem;
  }
