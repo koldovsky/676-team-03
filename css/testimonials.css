@@ -1,20 +1,58 @@
 .testimonials__p{
     text-align: right;
 }
+.testimonials__cards-dave-article-h2{
+    font-size: 22px;
+}
 .testimonials__cards-dave{
     border: solid;
+    text-align: center;
 }
 .red-point__h2{
     color:red;
 }
 .testimonials__cards-dave-img{
     width: 180px;
+    object-position: 50.832% 26.226%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    text-align: center;
+    width: 70px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 70px;
+    border-image-width: 1;
+    object-fit: cover;
 }
 .testimonials__cards-amanda-img{
     width: 180px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    text-align: center;
+    width: 70px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 70px;
+    border-image-width: 1;
+    object-fit: cover;
 }
 .testimonials__cards-erica-img{
     width: 180px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    text-align: center;
+    width: 70px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 70px;
+    border-image-width: 1;
+    object-fit: cover;
 }
 .testimonials__cards-amanda{
     border:solid;
