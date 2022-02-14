@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;400;500;600&family=Merriweather:ital@1&family=Quicksand:wght@300;400;600&family=Roboto+Mono:wght@500&family=Roboto+Slab&family=Roboto:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;400;500;600&family=Merriweather:ital@1&family=Quicksand:wght@300;400;600&family=Roboto+Mono:wght@500&family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;400;500;600&family=Merriweather:ital@1&family=Quicksand:wght@300;400;600&family=Roboto+Mono:wght@500&family=Roboto+Slab&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;400;500;600&family=Merriweather:ital@1&family=Quicksand:wght@300;400;600&family=Roboto&family=Roboto+Mono:wght@500&family=Roboto+Slab&display=swap');
 
 :root {
    font-family: 'Roboto', sans-serif;
@@ -17,6 +17,6 @@ img {
 }
 
 body {
-    max-width: 980px;
+    max-width: 1340px;
     margin: auto;
 }
