@@ -22,3 +22,32 @@
 .testimonials__cards-erica{
     border:solid;
 }
+.testimonials{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.testimonials__caption{
+   
+    font-size: 38px;
+    font-weight: 900;
+}
+.testimonials__subtext{
+    font-size: 18px;
+   
+    font-weight: 400;
+    font-style: italic;
+    color:rgb(136, 134, 146);
+}
+.testimonials__p{
+    color:rgb(112, 112, 112);
+  
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.testimonials__cards{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
