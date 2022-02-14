@@ -9,52 +9,38 @@
 }
 
 .beautiful-places {
-    color:rgb(112, 112, 112);
+    color: rgb(112, 112, 112);
 }
+
 .beautiful-places__carousel-main {
-    margin:0 60px 0 60px;
+    margin: 0 60px 0 60px;
 }
 
-.beautiful-places__text-container {
-    display: flex;
-    flex-direction: row;
+.beautiful-places__text-information {
+    margin-left: 120px;
+    line-height: 1.7rem;
 }
 
-.beautiful-places__text-container > .beautiful-places__title {
-    flex: auto;
+.beautiful-places__title {
+    margin-left: 60px;
+    margin-right: 60px;
 }
- .beautiful-places__text-container > .beautiful-places__text-information {
-     flex: auto;
- }
 
- .beautiful-places__text-information {
-     margin-left: 120px;
-     line-height: 1.7rem;
- }
-
- .beautiful-places__title {
-     margin-left: 60px;
-     margin-right: 60px;
- }
-
- .beautiful-places__subtext {
-     margin-top: 15px;
-     font-size: 1.1rem;
- }
-
- .beautiful-places__carousel {
-     display: inline-flex;
-     justify-content: space-around;
- }
+.beautiful-places__subtext {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
 
 .freedom-loving-europe__carousel-slide-1 {
     width: 25%;
     margin: 5px;
 }
+
 .fabulous-venice__carousel-slide-2 {
-    width:25%;
+    width: 25%;
     margin: 5px;
 }
+
 .australian-week__carousel-slide-3 {
     width: 25%;
     margin: 5px;
@@ -64,35 +50,10 @@
     width: 25%;
     margin: 5px;
 }
+
 .fairytale-in-disneyland__carousel-slide-5 {
     width: 25%;
     margin: 5px;
-}
-
-.beautiful-places__carousel img {
-   width: 95%;
-   height: 300px;
-   border-radius: 5%;
-}
-
-.carousel-slide-1__h3 {
-    margin: 30px 0 15px 0;
-}
-
-.carousel-slide-2__h3 {
-    margin: 30px 0 15px 0;
-}
-
-.carousel-slide-3__h3 {
-    margin: 30px 0 15px 0;
-}
-
-.carousel-slide-4__h3 {
-    margin: 30px 0 15px 0;
-}
-
-.carousel-slide-5__h3 {
-    margin: 30px 0 15px 0;
 }
 
 .beautiful-places__carousel h3 {
@@ -100,6 +61,7 @@
     font-weight: 900;
     font-size: 1.4rem;
 }
+
 .beautiful-places__carousel p {
     font-weight: 900;
     font-size: small;
