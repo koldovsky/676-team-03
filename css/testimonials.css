@@ -1,9 +1,3 @@
-@media(min-width:767px){
-    .testimonials{
-        display:grid;
-        grid-template-columns: 1 fr 1fr;
-    }
-}
 
 #testimonials{
     background-image: url(../img/testimonials/background.webp);
