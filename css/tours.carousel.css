@@ -3,6 +3,11 @@
     margin: 15px;
     max-width: 300px;
 }
+.tours__carousel-item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color:rgb(136, 134, 146);
+}
 .tours__carousel-item-img{
     width: 250px;
 }
@@ -11,7 +16,7 @@
     border-radius: 5px;
 }
 .tours__questions-block-container{
-   background-color: red;
+   background-color: rgb(255, 60, 66);
    padding: 75px 50px;
 }
 .tours__questions-block-button-link{
@@ -36,13 +41,81 @@
     padding: auto;
     margin: auto;
 }
+tours__questions-block-button-item span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
 
 .tours__questions-block-button-icon{
     width: 30px;
 }
 .tours__questions-block-title h2{
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
 }
 .tours__questions-block-text p{
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top:15px;
+    margin-bottom: 50px;
+}
+.tours__write-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+    max-width: 550px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+.tours__write-form-title-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tours__write-form-title h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 34px;
+    color:rgb(63, 54, 49);
+}
+.tours__write-form-title span{
+    color: rgb(255, 60, 66);
+}
+.tours__write-form-title p{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    color:rgba(56, 55, 61, 0.6);
+}
+.tours__write-form-input-item input{
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgba(56, 55, 61, 0.6);
+    border: 2px solid blue;
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: rgb(249, 248, 246);
+    margin-top: 25px;
+    padding: 10px 20px;
+}
+#message{
+    height: 150px;
+}
+.tours__write-form-button button{
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 50px 0;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:  rgb(255, 60, 66);
+    border-color:  rgb(255, 60, 66);
+    box-shadow: 1px 1px 2px 1px rgba(226, 224, 231, 0.6);
 }
