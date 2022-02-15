@@ -38,8 +38,7 @@
     
     .beautiful-places__carousel h3 {
         color: #3f3631;
-        font-weight: 700;
-        font-size: 1.4rem;
+        font-weight: bolder;
         font-family: 'Roboto', sans-serif;
         margin-top: 25px;
     }
