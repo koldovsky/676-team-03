@@ -1,3 +1,24 @@
+@media(min-width:767px){
+    .testimonials{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+@media(min-width:767px){
+    .testimonials__cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+@media(min-width:992px){
+    .testimonials__cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
 
 #testimonials{
     background-image: url(../img/testimonials/background.webp);
@@ -6,8 +27,6 @@
     padding-bottom: 90px;
     padding-left: 50px;
     padding-right: 50px;
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -20,7 +39,6 @@
     font-weight: 700;
 }
 .testimonials__cards-amanda-article-h3{
-    
     font-size: 23px;
     color: rgb(63, 54, 49);
     font-weight: 700;
@@ -32,6 +50,7 @@
 }
 .testimonials__cards-dave{
     border: solid;
+    border-radius: 10px;
     text-align: center;
     border-inline-color: white;
     background-color: white;
@@ -39,6 +58,8 @@
     margin-top:50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .red-point__h2{
     color:rgb(255, 60, 66);
@@ -92,35 +113,32 @@
     border-inline-color: white;
     background-color: white;
     border-block-color: white;
+    border-radius: 10px;
     margin-top:50px;
     padding-top: 50px;
     padding-bottom: 50px;
-
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .testimonials__cards-erica{
     border:solid;
     border-inline-color: white;
-    background-color: white;
     border-block-color: white;
+    background-color: white;
+    border-radius: 10px;
     margin-top:50px;
     padding-top: 50px;
     padding-bottom: 50px;
-    
-}
-.testimonials{
-    display:flex;
-    flex-direction:column ;
-    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;   
 }
 .testimonials__caption{
-   
     font-size: 38px;
     font-weight: 900;
     color:rgb(63, 54, 49)
 }
 .testimonials__subtext{
     font-size: 18px;
-   
     font-weight: 400;
     font-style: italic;
     color:rgb(136, 134, 146);
@@ -132,11 +150,11 @@
     text-align: justify;
 }
 .testimonials__cards{
-    display:flex;
-    flex-direction: column;
-    justify-content:space-around;
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
+    justify-items: flex-start;
+    justify-items: flex-end;
+    justify-items: center;
 }
 .testimonials__cards-amanda-article-subtext{
     font-size: 14px;
@@ -173,9 +191,9 @@
     align-items: center;
     box-sizing: border-box;
     cursor: pointer;
-justify-content: space-between;
-margin-left: 30px;
-margin-right: 30px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .button-testimonials{
     border:solid;
@@ -197,17 +215,16 @@ margin-right: 30px;
     align-items: center;
     box-sizing: border-box;
     cursor: pointer;
-justify-content: space-between;
-margin-left: 30px;
-margin-right: 30px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .testimonials__cards-erica-icons{
     display: flex;
     align-items: center;
     box-sizing: border-box;
     cursor: pointer;
-justify-content: space-between;
-margin-left: 30px;
-margin-right: 30px;
-    
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;  
 }
