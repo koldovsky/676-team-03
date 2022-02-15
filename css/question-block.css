@@ -1,7 +1,15 @@
+
+@media(min-width:767px){
+    .question-block{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 .question-block__h2{
-    font-size: 34px;
+    font-size: 40px;
     font-weight: 900;
-    color:rgb(63, 54, 49)
+    color:rgb(63, 54, 49);
+    text-align:left;
 }
 .question-block__faq{
     color:rgb(136, 134, 146);
@@ -13,8 +21,27 @@ font-style: italic;
     color:red;
 }
 .question-block{
-    margin-top: 15%;
+    padding-left: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 .question-block__tourist-image{
-    width: 50%;
+    width: 90%;
+    border-radius: 20px;
+}
+.question-block__p{
+    color: rgb(112, 112, 112);
+    font-family:'Roboto';
+    font-size:16px;
+    font-weight: 400;
+    text-align: left;
+}
+.question-block__text{
+    margin-right: 10%;
+}
+.question-block__popular-questions, .question-block__answers{
+    margin-top: 10%;
+    color:rgb(63, 54, 49);
+    font-family:'Roboto' sans-serif;
+    font-weight:bold;
 }

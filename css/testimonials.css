@@ -1,7 +1,7 @@
-@media(min-width:700px){
-    .testimonials__cards{
+@media(min-width:767px){
+    .testimonials{
         display:grid;
-        grid-template-columns: repeat(2 1fr);
+        grid-template-columns: 1 fr 1fr;
     }
 }
 
