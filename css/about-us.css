@@ -1,77 +1,80 @@
-@media (min-width: 767px) {
-    .about-us {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-
-.about-us__h2 {
-    font-size: 2.6rem;
-    color: #3f3631;
-    font-weight: 700;
-}
-
-.red-words-about-us__h2 {
-    color: red;
-}
-
-.about-us {
-    color: rgb(112, 112, 112);
-}
-
-.about-us {
-    width:100%;
-    max-width: 1170px;
-}
-
-
-
-.happy-tourists__img {
-    width: 100%;
-    max-width: 570px;
-}
-
-.icon_travel_world,
-.icon_guide {
-    height: 5.5rem;
-}
-
-.about-us__text-information {
-    line-height: 1.7rem;
-}
-
-.about-us__subtext {
-    margin-top: 20px;
-    font-size: 1.1rem;
-}
-
-.organized-tours {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    align-items: center;
-}
-
-.our-number-tours__h3,
-.experienced-guides__h3 {
-    color: #3f3631;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 30px;
-    margin-left: 10px;
-}
-
-.our-number-tours__subtext,
-.experienced-guides__subtext {
-    font-weight: 500;
-    font-size: 1rem;
-    color: rgb(112, 112, 112);
-}
-
-.experienced-guides {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-    align-items: center;
-}
+        @media (min-width: 767px) {
+            .about-us {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        .about-us__container {
+            display: flex;
+            justify-content: center;
+            margin: 100px 0 100px 0;
+        }
+        
+        .about-us__h2 {
+            font-size: 2.6rem;
+            color: #3f3631;
+            font-weight: 700;
+        }
+        
+        .red-words-about-us__h2 {
+            color: red;
+        }
+        
+        .about-us {
+            color: rgb(112, 112, 112);
+        }
+        
+        .about-us {
+            width: 100%;
+            max-width: 1170px;
+        }
+        
+        .happy-tourists__img {
+            width: 100%;
+            max-width: 570px;
+        }
+        
+        .icon_travel_world,
+        .icon_guide {
+            height: 5.5rem;
+        }
+        
+        .about-us__text-information {
+            line-height: 1.7rem;
+        }
+        
+        .about-us__subtext {
+            margin-top: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .organized-tours {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            align-items: center;
+        }
+        
+        .our-number-tours__h3,
+        .experienced-guides__h3 {
+            color: #3f3631;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+        
+        .our-number-tours__subtext,
+        .experienced-guides__subtext {
+            font-weight: 500;
+            font-size: 1rem;
+            color: rgb(112, 112, 112);
+        }
+        
+        .experienced-guides {
+            display: flex;
+            flex-direction: row;
+            padding-top: 10px;
+            align-items: center;
+        }
