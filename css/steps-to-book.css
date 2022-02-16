@@ -1,0 +1,46 @@
+@media (min-width: 767px) {
+    .steps-to-book {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.checkmark-icon-service {
+    width: 24px;
+    height: 24px;
+}
+
+.steps-to-book {
+    background-color: rgba(243, 41, 14, 0.801);
+    color: rgb(255, 255, 255);
+}
+
+.services-list ul {
+    list-style: none;
+}
+
+.steps-to-book__part-left,
+.steps-to-book__part-right {
+    margin: 100px 60px 100px 60px;
+}
+
+.organizing-tour__h2 {
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.steps-to-book__part-right h2 {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.organizing-tour__subtext {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 35px;
+}
+
+.checkmark-photograph {
+    display: flex;
+    flex-direction: row;
+}
