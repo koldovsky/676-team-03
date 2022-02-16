@@ -11,6 +11,12 @@
 }
 
 .steps-to-book {
+    
+    
+    width: 100%;
+        max-width: 1170px;
+}
+.steps-to-book__container{
     background-color: rgba(243, 41, 14, 0.801);
     color: rgb(255, 255, 255);
 }
