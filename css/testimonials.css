@@ -152,8 +152,6 @@
 .testimonials__cards{
     margin-top: 50px;
     text-align: center;
-    justify-items: flex-start;
-    justify-items: flex-end;
     justify-items: center;
 }
 .testimonials__cards-amanda-article-subtext{
