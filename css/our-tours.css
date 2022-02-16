@@ -1,0 +1,6 @@
+@media (min-width: 767px) {
+    .our-tours__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
