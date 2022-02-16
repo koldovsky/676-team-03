@@ -1,0 +1,11 @@
+@media (min-width: 767px) {
+    .our-tours__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.visit-admire-learn-more__h2 {
+    font-size: 2.6rem;
+    color: #3f3631;
+    font-weight: 700;
+}
