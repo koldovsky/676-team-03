@@ -5,6 +5,7 @@
     }
 }
 
+
 .about-us__h2 {
     font-size: 2.6rem;
     color: #3f3631;
@@ -20,11 +21,15 @@
 }
 
 .about-us {
-    margin: 55px 55px 60px 55px;
+    width:100%;
+    max-width: 1170px;
 }
+
+
 
 .happy-tourists__img {
     width: 100%;
+    max-width: 570px;
 }
 
 .icon_travel_world,
