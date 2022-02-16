@@ -40,7 +40,20 @@
     margin-bottom: 35px;
 }
 
-.checkmark-photograph {
+.service-photograph,
+.service-hotel,
+.service-excursion,
+.service-trasfer {
     display: flex;
     flex-direction: row;
+    margin: 10px 10px 10px 0;
+}
+
+.services-list {
+    margin: 20px 0 20px 0;
+}
+
+.services-list span {
+    font-weight: 700;
+    font-size: small;
 }
