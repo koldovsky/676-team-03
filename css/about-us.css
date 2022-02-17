@@ -33,6 +33,7 @@
         .happy-tourists__img {
             width: 100%;
             max-width: 570px;
+            border-radius: 5%;
         }
         
         .icon_travel_world,

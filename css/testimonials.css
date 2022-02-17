@@ -1,28 +1,27 @@
-@media(min-width:767px){
-    .testimonials{
-        display:grid;
+@media(min-width:767px) {
+    .testimonials {
+        display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+}
 
-    }
-}
-@media(min-width:767px){
-    .testimonials__cards{
-        display:grid;
+@media(min-width:767px) {
+    .testimonials__cards {
+        display: grid;
         grid-template-columns: 1fr 1fr;
-        
     }
 }
-@media(min-width:992px){
-    .testimonials__cards{
-        display:grid;
+
+@media(min-width:992px) {
+    .testimonials__cards {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
     }
 }
 
-#testimonials{
+#testimonials {
     background-image: url(../img/testimonials/background.webp);
-    background-color:rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
     padding-top: 90px;
     padding-bottom: 90px;
     padding-left: 50px;
@@ -30,41 +29,47 @@
     flex-wrap: wrap;
 }
 
-.testimonials__p{
+.testimonials__p {
     text-align: center;
 }
-.testimonials__cards-dave-article-h3{
+
+.testimonials__cards-dave-article-h3 {
     font-size: 23px;
     color: rgb(63, 54, 49);
     font-weight: 700;
 }
-.testimonials__cards-amanda-article-h3{
+
+.testimonials__cards-amanda-article-h3 {
     font-size: 23px;
     color: rgb(63, 54, 49);
     font-weight: 700;
 }
-.testimonials__cards-erica-article-h3{
+
+.testimonials__cards-erica-article-h3 {
     font-size: 23px;
     color: rgb(63, 54, 49);
     font-weight: 700;
 }
-.testimonials__cards-dave{
+
+.testimonials__cards-dave {
     border: solid;
     border-radius: 10px;
     text-align: center;
     border-inline-color: white;
     background-color: white;
     border-block-color: white;
-    margin-top:50px;
+    margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
 }
-.red-point__h2{
-    color:rgb(255, 60, 66);
+
+.red-point__h2 {
+    color: rgb(255, 60, 66);
 }
-.testimonials__cards-dave-img{
+
+.testimonials__cards-dave-img {
     width: 180px;
     object-position: 50.832% 26.226%;
     border-bottom-left-radius: 50%;
@@ -80,7 +85,8 @@
     border-image-width: 1;
     object-fit: cover;
 }
-.testimonials__cards-amanda-img{
+
+.testimonials__cards-amanda-img {
     width: 180px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -94,7 +100,8 @@
     border-image-width: 1;
     object-fit: cover;
 }
-.testimonials__cards-erica-img{
+
+.testimonials__cards-erica-img {
     width: 180px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -108,92 +115,99 @@
     border-image-width: 1;
     object-fit: cover;
 }
-.testimonials__cards-amanda{
-    border:solid;
+
+.testimonials__cards-amanda {
+    border: solid;
     border-inline-color: white;
     background-color: white;
     border-block-color: white;
     border-radius: 10px;
-    margin-top:50px;
+    margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
 }
-.testimonials__cards-erica{
-    border:solid;
+
+.testimonials__cards-erica {
+    border: solid;
     border-inline-color: white;
     border-block-color: white;
     background-color: white;
     border-radius: 10px;
-    margin-top:50px;
+    margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
-    padding-right: 20px;   
+    padding-right: 20px;
 }
-.testimonials__caption{
+
+.testimonials__caption {
     font-size: 38px;
     font-weight: 900;
-    color:rgb(63, 54, 49)
+    color: rgb(63, 54, 49)
 }
-.testimonials__subtext{
+
+.testimonials__subtext {
     font-size: 18px;
     font-weight: 400;
     font-style: italic;
-    color:rgb(136, 134, 146);
+    color: rgb(136, 134, 146);
 }
-.testimonials__p{
-    color:rgb(112, 112, 112);
+
+.testimonials__p {
+    color: rgb(112, 112, 112);
     font-size: 16px;
     font-weight: 400;
     text-align: justify;
 }
-.testimonials__cards{
+
+.testimonials__cards {
     margin-top: 50px;
     text-align: center;
     justify-items: center;
 }
-.testimonials__cards-amanda-article-subtext{
+
+.testimonials__cards-amanda-article-subtext {
     font-size: 14px;
     font-weight: 500;
-    color:rgb(153, 134, 123);
+    color: rgb(153, 134, 123);
 }
-.testimonials__cards-amanda-article-p{
+
+.testimonials__cards-amanda-article-p {
     font-size: 16px;
     font-weight: 400;
-    color:rgb(153, 134, 123);
+    color: rgb(153, 134, 123);
 }
-.testimonials__cards-erica-article-p{
+
+.testimonials__cards-erica-article-p {
     font-size: 16px;
     font-weight: 400;
-    color:rgb(153, 134, 123);
+    color: rgb(153, 134, 123);
 }
-.testimonials__cards-erica-article-subtext{
+
+.testimonials__cards-erica-article-subtext {
     font-size: 14px;
     font-weight: 500;
-    color:rgb(153, 134, 123);
+    color: rgb(153, 134, 123);
 }
-.testimonials__cards-dave-article-subtext{
+
+.testimonials__cards-dave-article-subtext {
     font-size: 14px;
     font-weight: 500;
-    color:rgb(153, 134, 123);
+    color: rgb(153, 134, 123);
 }
-.testimonials__cards-dave-article-p{
+
+.testimonials__cards-dave-article-p {
     font-size: 16px;
     font-weight: 400;
-    color:rgb(153, 134, 123);
+    color: rgb(153, 134, 123);
 }
 
-.button-testimonials{
-    color:rgb(255, 60, 66);
-    
-
-
+.button-testimonials {
+    color: rgb(255, 60, 66);
 }
-.button-testimonials:hover{
-    color:crimson
 
-}
- 
+.button-testimonials:hover {
+    color: crimson
 }

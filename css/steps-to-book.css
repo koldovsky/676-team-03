@@ -16,8 +16,12 @@
 }
 
 .steps-to-book__container {
-    background-color: rgba(243, 41, 14, 0.801);
     color: rgb(255, 255, 255);
+    background-image: url(../img/staps.to.book/background-step-to-book.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed, scroll;
 }
 
 .services-list ul {
@@ -75,9 +79,4 @@
 .enjoy-your-journey__h2,
 .dont-worry-about-content {
     margin-top: 30px;
-}
-
-.steps-to-book__container {
-    display: flex;
-    justify-content: center;
 }

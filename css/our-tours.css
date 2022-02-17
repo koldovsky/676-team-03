@@ -1,24 +1,43 @@
 @media (min-width: 767px) {
-    .our-tours__container {
+    .our-tours-infos {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
+
+.our-tours__container {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+}
+
+.our-tours-infos {
+    width: 100%;
+    max-width: 1170px;
+}
+
+.text-info__our-trips {
+    margin-left: 60px;
+}
+
 .visit-admire-learn-more__h2 {
     font-size: 2.6rem;
     color: #3f3631;
     font-weight: 700;
 }
+
 .red-price-tabs {
-    color: rgb(255,0,0);
+    color: rgb(255, 0, 0);
     font-weight: 700;
     font-size: 1.2rem;
 }
+
 .price {
     font-weight: 700;
     font-size: small;
-    color:rgb(112, 112, 112);
+    color: rgb(112, 112, 112);
 }
+
 h3 {
     font-weight: bold;
     font-size: 1.5rem;
