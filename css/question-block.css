@@ -10,6 +10,7 @@
     font-weight: 900;
     color:rgb(63, 54, 49);
     text-align:left;
+    font-family: 'Roboto' sans-serif;
 }
 .question-block__faq{
 color:rgb(136, 134, 146);
@@ -39,9 +40,19 @@ font-style: italic;
 .question-block__text{
     margin-right: 10%;
 }
-.question-block__popular-questions, .question-block__answers{
-    margin-top: 10%;
-    color:rgb(63, 54, 49);
+.question-block__accordion{
+    margin-top: 100px;
     font-family:'Roboto' sans-serif;
-    font-weight:bold;
+}
+.accordion-button{
+    color: rgb(63, 54, 49);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto' sans-serif;
+}
+.accordion-body{
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto' sans-serif;
 }
