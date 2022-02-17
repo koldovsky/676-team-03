@@ -11,6 +11,11 @@
 }
 
 .steps-to-book {
+    width: 100%;
+    max-width: 1170px;
+}
+
+.steps-to-book__container {
     background-color: rgba(243, 41, 14, 0.801);
     color: rgb(255, 255, 255);
 }
@@ -21,7 +26,15 @@
 
 .steps-to-book__part-left,
 .steps-to-book__part-right {
-    margin: 100px 60px 100px 60px;
+    margin: 100px 0 100px 0;
+}
+
+.steps-to-book__part-left {
+    margin-right: 60px;
+}
+
+.steps-to-book__part-right {
+    margin-left: 60px;
 }
 
 .organizing-tour__h2 {
@@ -56,4 +69,15 @@
 .services-list span {
     font-weight: 700;
     font-size: small;
+}
+
+.select-a-tour__h2,
+.enjoy-your-journey__h2,
+.dont-worry-about-content {
+    margin-top: 30px;
+}
+
+.steps-to-book__container {
+    display: flex;
+    justify-content: center;
 }

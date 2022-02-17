@@ -5,11 +5,6 @@
         }
     }
     
-    .beautiful-places {
-        margin-top: 5rem;
-        width: 100%;
-    }
-    
     .beautiful-places__h2 {
         color: #3f3631;
         font-weight: 700;
@@ -18,15 +13,18 @@
     
     .beautiful-places {
         color: rgb(112, 112, 112);
+        width: 100%;
+        max-width: 1170px;
+    }
+    
+    .beautiful-places__container {
+        display: flex;
+        justify-content: center;
+        margin: 100px 0 100px 0;
     }
     
     .beautiful-places__text-information {
         line-height: 1.7rem;
-    }
-    
-    .beautiful-places__text-container {
-        margin-left: 60px;
-        margin-right: 60px;
     }
     
     .beautiful-places__subtext {
