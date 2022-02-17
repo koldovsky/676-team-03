@@ -32,28 +32,84 @@
         font-size: 1.1rem;
     }
     
-    .beautiful-places__carousel h3 {
+    .carousel-slide-1__h3,
+    .carousel-slide-2__h3,
+    .carousel-slide-3__h3,
+    .carousel-slide-4__h3,
+    .carousel-slide-5__h3 {
         color: #3f3631;
         font-weight: bold;
         font-size: 1.5rem;
         font-family: 'Roboto', sans-serif;
-        margin-top: 25px;
     }
     
-    .beautiful-places__carousel p {
+    .slide-1__price,
+    .slide-2__price,
+    .slide-3__price,
+    .slide-4__price,
+    .slide-5__price {
         font-weight: 700;
         font-size: small;
         font-family: 'Roboto', sans-serif;
     }
     
-    .beautiful-places__carousel span {
+    .europe-information span {
         color: #ff0000;
         font-weight: 700;
         font-size: 1.2rem;
         font-family: 'Roboto', sans-serif;
     }
     
-    .beautiful-places__carousel img {
+    .red-price__slide {
+        color: #ff0000;
+        font-weight: 700;
+        font-size: 1.2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .beautiful-places__carousel img,
+    .d-block {
         height: 310px;
         border-radius: 5px;
+        margin-bottom: 180px;
+        display: block;
+    }
+    
+    .carousel-dark {
+        height: 410px;
+        width: 310px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .w-100 {
+        width: 350px;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+    }
+    
+    .carousel-control-prev {
+        margin-left: -45px;
+    }
+    
+    .carousel-control-next {
+        margin-right: -45px;
+    }
+    
+    .carousel-indicators {
+        margin-bottom: -45px;
+    }
+    
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+    }
+    
+    .carousel-dark__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
