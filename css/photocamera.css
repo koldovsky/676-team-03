@@ -1,0 +1,9 @@
+.photocamera__background {
+    background-image: url(../img/icon/photocamera.webp);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed, scroll;
+    margin: 100px 0 100px 0;
+    height: 850px;
+}
