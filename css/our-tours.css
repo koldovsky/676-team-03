@@ -45,3 +45,66 @@ h3 {
     margin-top: 25px;
 }
 
+.nav-tabs-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+}
+.nav-tabs-content {
+    width: 100%;
+    max-width: 1170px;
+}
+.tabs_continent {
+    display: flex;
+}
+.tabs_continent {
+    margin: 15px;
+    text-decoration: none;
+    color: #3f3631;
+}
+
+.tabs_continent:visited {
+    color:#3f3631; 
+    font-weight: bold;
+}
+
+img.photo-view {
+    width: 350px;
+    height: 400px;
+    border-radius: 25px;
+    object-fit: fill;
+}
+
+.detailed-info-insta {
+    display: flex;
+}
+.logo-icon {
+    margin-bottom: 15px;
+}
+.detailed-info-clock {
+    display: flex;
+}
+.detailed-info-star {
+    display: flex;
+}
+
+.tour-info, .description_text {
+    font-size: 1rem;
+}
+
+.tabs__body-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ @media (max-width: 992px) {
+    .tabs__body-information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+ }
+ @media (max-width: 768px) {
+    .tabs__body-information {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+ }
