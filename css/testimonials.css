@@ -1,5 +1,5 @@
 @media(min-width:767px) {
-    .testimonials {
+    .testimonials-text {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -21,7 +21,7 @@
 
 #testimonials {
     background-image: url(../img/testimonials/background.webp);
-    background-color: rgb(247, 247, 247);
+    background-color: #3f363109;
     padding-top: 90px;
     padding-bottom: 90px;
     padding-left: 50px;
